@@ -30,7 +30,8 @@ The Application Load Balancer distributes incoming traffic across multiple EC2 i
 
 The Application Load Balancer is configured as **internet-facing** and routes HTTP traffic to a target group containing the EC2 instances.
 
-![Load Balancer](load%20balancer.jpg)
+![Load Balancer](screenshots/load%20balancer.jpg)
+
 
 ---
 
@@ -44,7 +45,7 @@ Minimum instances: 2
 Desired instances: 2  
 Maximum instances: 4  
 
-![Auto Scaling](autoscaling.jpg)
+![Auto Scaling](screenshots/autoscaling.jpg)
 
 ---
 
@@ -54,7 +55,7 @@ To verify that the load balancer distributes traffic correctly, the web page dis
 
 Refreshing the page returns different instance IDs, proving that the load balancer is distributing requests across multiple instances.
 
-![Instance ID Test](showing%20instance%20id.jpg)
+![Instance ID Test](screenshots/showing%20instance%20id.jpg)
 
 ---
 
